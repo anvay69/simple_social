@@ -1,0 +1,89 @@
+# =========================
+# Python / uv
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+.pyright/
+
+# Ruff / pylint
+.ruff_cache/
+.pylint.d/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# uv specific
+.uv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# FastAPI / ASGI
+# =========================
+# Uvicorn / Gunicorn
+*.log
+uvicorn.log
+gunicorn.log
+
+# Starlette / FastAPI cache
+.cache/
+.fastapi/
+.starlette/
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Vim / swap
+*.swp
+*.swo
+*~
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+
